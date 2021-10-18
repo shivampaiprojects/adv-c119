@@ -4,7 +4,7 @@ function setup() {
     video = createCapture(VIDEO);
     video.size(300, 300);
     video.hide();
-    classifier = ml5.imageClassifier('https://storage.googleapis.com/tm-model/v_sl95BzE/model.json', console.log('Loaded'));
+    classifier = ml5.imageClassifier('https://storage.googleapis.com/tm-model//model.json', console.log('Loaded'));
 }
 function draw() {
     image(video, 0, 0, 300, 300);
